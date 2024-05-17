@@ -1,0 +1,182 @@
+{
+  "editor.fontFamily": "'FiraCode Nerd Font', 'FiraCode",
+  "editor.fontLigature": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "editor.suggest": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.tree.indent": 16,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.fontSize": 18,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "liveServer.settings.donotVerifyTags": true,
+  "vscodeGoogleTranslate.preferredLanguage": "Portuguese",
+  "python.languageServer": "Default",
+  
+  "displayTestingTips": true,
+  "seenTestingTipReleaseNotice": true,
+  "tabnine.experimentalAutoImports": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.rulers": [80, 120],
+  
+  "editor.renderLineHighlight": "gutter",
+  
+  "terminal.integrated.fontSize": 14,
+  
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "launch": {
+      "configurations": [
+
+      ]
+    },
+    "editor.inlineSuggest.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "webview.experimental.useExternalEndpoint": true,
+    "ponicode.watchMode": false,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "yaml": true
+    },
+    "git.autofetch": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "dart.flutterSdkPath": "D:\\programas\\Android\\flutter",
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+        80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "git.enableSmartCommit": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.renderControlCharacters": false,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.env.windows": {
+      "PATH": "${env:PATH}"
+    },
+    "codeium.enableSearch": true,
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#5ED29E",
+      "statusBar.foreground": "#000000"
+    },
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.shellIntegration.suggestEnabled": true,
+    "terminal.explorerKind": "both",
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      },
+      "Windows PowerShell": {
+        "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+      }
+    },
+    "powershell.promptToUpdatePowerShell": false,
+    "terminal.integrated.env.linux": {},
+    "glassit.alpha": 220,
+    "workbench.colorTheme": "Solarized Dark+",
+    "window.zoomLevel": -2,
+    "console-ninja.featureSet": "Community",
+    "go.toolsManagement.autoUpdate": true
+
+
+}
